@@ -1,0 +1,223 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #e0e8ff;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0px 15px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row::after {
+  display: table;
+  clear: both;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.brand-bg {
+  z-index: -5;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.brand-secondary-bg {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.music-icon {
+  margin-left: 13px;
+  display: flex;
+}
+
+.container {
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 20px;
+  width: 30%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0px;
+  right: 0px;
+}
+
+@media screen and (max-width: 1230px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 518px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 446px) {
+  .container {
+    width: 95%;
+  }
+}
+
+.container .contents {
+  margin: 0px 40px;
+}
+
+.container .contents .title {
+  color: #1f2f56;
+  font-size: 30px;
+}
+
+.container .contents .discription {
+  color: #7280a7;
+}
+
+.container .contents div a {
+  text-decoration: none;
+  text-align: center;
+  color: #7280a7;
+  margin: 30px 0px 30px;
+}
+
+.container .contents div a:hover {
+  color: #1f2f56;
+}
+
+.container .plan-box {
+  background-color: #f5f7ff;
+  border-radius: 10px;
+}
+
+.container .plan-box .plan {
+  color: #1f2f56;
+}
+
+.container .plan-box .plan b {
+  padding-left: 20px;
+}
+
+.container .plan-box .plan-price {
+  color: #7280a7;
+  margin-top: -15px;
+  padding-left: 20px;
+}
+
+.container .plan-box .plan-change {
+  color: #3829e0;
+  text-decoration: underline;
+  margin-left: -10px;
+}
+
+.container .plan-box .plan-change:hover {
+  text-decoration: none;
+  color: #766cf1;
+}
+
+.container .btn-section {
+  display: grid;
+  margin: auto;
+}
+
+.btn-payment {
+  border: none;
+  margin-top: 30px;
+  background-color: #3829e0;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-shadow: 0px 20px 19px 0px rgba(56, 41, 224, 0.24);
+  -webkit-box-shadow: 0px 20px 19px 0px rgba(56, 41, 224, 0.24);
+  -moz-box-shadow: 0px 20px 19px 0px rgba(56, 41, 224, 0.24);
+}
+
+.btn-payment:hover {
+  background-color: #766cf1;
+}
+
+.btn-cancel {
+  font-size: 14px;
+  font-size-margin-top: 35px;
+  font-size-border: none;
+  font-size-color: #7280a7;
+  font-size-background-color: none;
+}
